@@ -33,5 +33,8 @@ public class PersonalInformation {
     public static final Target CONFIRMATION = Target.the("Confirmation message")
             .locatedBy("//*[@class='confirmation-modal-info']");
 
+    public static final Target FIELD_ERROR_MESSAGE = Target.the("Error message")
+            .locatedBy("(//*[@class='error-message'])[{0}]");
+
 
 }

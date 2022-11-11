@@ -12,3 +12,8 @@ Feature: Update personal information
   Scenario: update information
     When I fill the data
     Then I see the message "Tu información se guardó correctamente"
+
+    @ValidateUpdateFields
+    Scenario: Validate mandatory fields
+      When I send the personal info form void
+      Then I see the error in the mandatory fields
