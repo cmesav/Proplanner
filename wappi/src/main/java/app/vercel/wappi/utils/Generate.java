@@ -20,14 +20,9 @@ public class Generate {
     }
 
     private static final Logger logger = Logger.getLogger(Generate.class.getName());
-
-
     private static final Faker FAKER = new Faker(new Locale("en"));
-
     public static LogInInfo theInfo() {
-
         logger.log(Level.INFO, () -> "Enter to Generate log in data");
-
         return new LogInInfo(
                 FAKER.bothify("??????##"),
                 FAKER.bothify("???###???")
@@ -35,9 +30,7 @@ public class Generate {
     }
 
     public static UserData userData(){
-
         logger.log(Level.INFO, () -> "Enter to Generate user info");
-
         Date date = FAKER.date().birthday();
         File file = new File(FILE_PATH);
         return new UserData(

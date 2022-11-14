@@ -13,6 +13,8 @@ public class Constants {
     public static final String LAST_NAME_ERROR = "El apellido es requerido";
     public static final String DATE_ERROR = "La fecha de nacimiento es requerida";
     public static final String COUNTRY_ERROR = "El país es requerido";
+    public static final String FINAL_VALIDATION = "The product purchase information is correct";
+    public static final String FINAL_VALIDATION_ERROR = "The product purchase information is different than expected";
 
 
 }

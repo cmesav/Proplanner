@@ -2,27 +2,20 @@ package app.vercel.wappi.models;
 
 public class LogInInfo {
 
-    private String UserName;
-    private String password;
+    private final String userName;
+    private final String password;
 
     public LogInInfo(String userName, String password) {
-        UserName = userName;
+        this.userName = userName;
         this.password = password;
     }
 
     public String getUserName() {
-        return UserName;
-    }
-
-    public void setUserName(String userName) {
-        UserName = userName;
+        return userName;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }

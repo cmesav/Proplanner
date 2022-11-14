@@ -10,7 +10,6 @@ public class LogIn {
 
     public static final Target USER_NAME = Target.the("User Name")
             .located(By.id("username"));
-
     public static final Target PASSWORD = Target.the("Password")
             .located(By.id("password"));
 

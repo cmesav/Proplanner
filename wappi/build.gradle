@@ -31,8 +31,8 @@ buildscript {
 }
 
 ext{
-    serenityVersion = '3.2.5'
-    serenityCucumberVersion = '3.2.5'
+    serenityVersion = '3.4.1'
+    serenityCucumberVersion = '3.4.1'
 }
 
 test {
