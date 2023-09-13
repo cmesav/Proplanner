@@ -3,7 +3,7 @@ package app.vercel.wappi.questions;
 import app.vercel.wappi.userinterfaces.PersonalInformation;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 public class Update implements Question<String> {
 
