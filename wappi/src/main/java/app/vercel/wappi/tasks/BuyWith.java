@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 import java.util.List;
 import java.util.logging.Level;
