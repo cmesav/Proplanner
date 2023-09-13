@@ -5,7 +5,7 @@ import app.vercel.wappi.utils.ReturnProduct;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actions.Click;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 import static app.vercel.wappi.userinterfaces.Home.PURCHASE_ORDERS;
 import static app.vercel.wappi.userinterfaces.MyOrders.ORDER_INFO;

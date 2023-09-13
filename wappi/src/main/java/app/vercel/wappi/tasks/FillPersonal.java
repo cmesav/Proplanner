@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
-import net.thucydides.core.annotations.Step;
+import net.serenitybdd.annotations.Step;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
