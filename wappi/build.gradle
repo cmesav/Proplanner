@@ -5,7 +5,7 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-group 'sistecredito'
+group 'wappi'
 version '1.0-SNAPSHOT'
 
 
